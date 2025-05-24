@@ -1,0 +1,277 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Webiste</title>
+
+    <!-- Style Css Link -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1">
+    <!-- Style Css Link -->
+    <link
+    href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Font Awesome Cdn -->
+
+</head>
+<body>
+
+    <!-- Header Start -->
+    <div class="header">
+        <nav>
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="content">
+                <div class="logo"><a href="index.html"><img src="./images/logo.png" alt=""></a></div>
+
+                <ul class="links">
+                    <li><a href="index.html" id="first">Home</a></li>
+                    <li><a href="Product.html">Products</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <br>
+                    <a href="cart.html" class="icon">
+                        <i class="bx bx-cart"></i>
+                      </a>
+                </ul>
+            </div>
+            <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+            <form action="#" class="search-box">
+                <input type="text" placeholder="Search" required>
+                <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+                <a href="cart.html" class="icon">
+                    <i class="bx bx-cart"></i>
+                    <span class="d-flex">5</span>
+                  </a>
+            </form>
+
+        </nav>
+    </div>
+
+     <!-- Cart Items -->
+     <div class="container cart">
+        <table>
+          <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+          </tr>
+          <tr>
+            <td>
+              <div class="cart-info">
+                <img src="./images/product-2.jpg" alt="" />
+                <div>
+                  <p>Boy’s T-Shirt</p>
+                  <span>Price: ₹50.00</span> <br />
+                  <a href="#">remove</a>
+                </div>
+              </div>
+            </td>
+            <td><input type="number" value="1" min="1" /></td>
+            <td>₹50.00</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="cart-info">
+                <img src="./images/product-3.jpg" alt="" />
+                <div>
+                  <p>Boy’s T-Shirt</p>
+                  <span>Price: ₹90.00</span> <br />
+                  <a href="#">remove</a>
+                </div>
+              </div>
+            </td>
+            <td><input type="number" value="1" min="1" /></td>
+            <td>₹90.00</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="cart-info">
+                <img src="./images/product-4.jpg" alt="" />
+                <div>
+                  <p>Boy’s T-Shirt</p>
+                  <span>Price: ₹60.00</span> <br />
+                  <a href="#">remove</a>
+                </div>
+              </div>
+            </td>
+            <td><input type="number" value="1" min="1" /></td>
+            <td>₹60.00</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="cart-info">
+                <img src="./images/product-5.jpg" alt="" />
+                <div>
+                  <p>Boy’s T-Shirt</p>
+                  <span>Price: ₹60.00</span> <br />
+                  <a href="#">remove</a>
+                </div>
+              </div>
+            </td>
+            <td><input type="number" value="1" min="1" /></td>
+            <td>₹60.00</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="cart-info">
+                <img src="./images/product-6.jpg" alt="" />
+                <div>
+                  <p>Boy’s T-Shirt</p>
+                  <span>Price: ₹60.00</span> <br />
+                  <a href="#">remove</a>
+                </div>
+              </div>
+            </td>
+            <td><input type="number" value="1" min="1" /></td>
+            <td>₹60.00</td>
+          </tr>
+        </table>
+        <div class="total-price">
+          <table>
+            <tr>
+              <td>Subtotal</td>
+              <td>₹320</td>
+            </tr>
+            <tr>
+              <td>Tax</td>
+              <td>₹57.6</td>
+            </tr>
+            <tr>
+              <td>Total</td>
+              <td>₹377.6</td>
+            </tr>
+          </table>
+          <a href="card.html" class="checkout btn">Proceed To Checkout</a>
+        </div>
+      </div>
+  
+      <!-- Latest Products -->
+      <section class="section featured">
+        <div class="top container">
+          <h1>Latest Products</h1>
+          <a href="#" class="view-more">View more</a>
+        </div>
+        <div class="product-center container">
+          <div class="product-item">
+            <div class="overlay">
+              <a href="" class="product-thumb">
+                <img src="./images/product-6.jpg" alt="" />
+              </a>
+            </div>
+            <div class="product-info">
+              <span>MEN'S CLOTHES</span>
+              <a href="">Concepts Solid Pink Men’s Polo</a>
+              <h4>₹150</h4>
+            </div>
+            <ul class="icons">
+              <li><i class="bx bx-heart"></i></li>
+              <li><i class="bx bx-search"></i></li>
+              <li><i class="bx bx-cart"></i></li>
+            </ul>
+          </div>
+          <div class="product-item">
+            <div class="overlay">
+              <a href="" class="product-thumb">
+                <img src="./images/product-1.jpg" alt="" />
+              </a>
+              <span class="discount">40%</span>
+            </div>
+            <div class="product-info">
+              <span>MEN'S CLOTHES</span>
+              <a href="">Concepts Solid Pink Men’s Polo</a>
+              <h4>₹150</h4>
+            </div>
+            <ul class="icons">
+              <li><i class="bx bx-heart"></i></li>
+              <li><i class="bx bx-search"></i></li>
+              <li><i class="bx bx-cart"></i></li>
+            </ul>
+          </div>
+          <div class="product-item">
+            <div class="overlay">
+              <a href="" class="product-thumb">
+                <img src="./images/product-3.jpg" alt="" />
+              </a>
+            </div>
+            <div class="product-info">
+              <span>MEN'S CLOTHES</span>
+              <a href="">Concepts Solid Pink Men’s Polo</a>
+              <h4>₹150</h4>
+            </div>
+            <ul class="icons">
+              <li><i class="bx bx-heart"></i></li>
+              <li><i class="bx bx-search"></i></li>
+              <li><i class="bx bx-cart"></i></li>
+            </ul>
+          </div>
+          <div class="product-item">
+            <div class="overlay">
+              <a href="" class="product-thumb">
+                <img src="./images/product-2.jpg" alt="" />
+              </a>
+            </div>
+            <div class="product-info">
+              <span>MEN'S CLOTHES</span>
+              <a href="">Concepts Solid Pink Men’s Polo</a>
+              <h4>₹150</h4>
+            </div>
+            <ul class="icons">
+              <li><i class="bx bx-heart"></i></li>
+              <li><i class="bx bx-search"></i></li>
+              <li><i class="bx bx-cart"></i></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+       <!-- Footer Start -->
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="logo">
+                <img src="./images/logo.png" alt="">
+            </div>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et labore suscipit nisi non, laudantium delectus?
+                <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, molestias!
+            </p>
+            <div class="socail-links">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+            </div>
+        </div>
+        <hr>
+    </footer>
+    <!-- Footer End -->
+    <a href="#" class="arrow"><i><img src="./images/up-arrow.png" alt="" width="50px"></i></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
